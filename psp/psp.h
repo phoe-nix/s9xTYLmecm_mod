@@ -130,7 +130,6 @@ extern int os9x_hack;
 #include "psp_ui.h"
 #include "psplib.h"
 #include "profiler.h"
-#include "psp/ram.h"
 #include "psp/me/mem64.h"
 
 #include "psp/psp_msg.h"
@@ -155,15 +154,15 @@ extern volatile int *mixsample_flag,*emulapu_flag;
 
 
 
-#define SJIS_SQUARE " "
-#define SJIS_CROSS "~"
-#define SJIS_CIRCLE "›"
-#define SJIS_TRIANGLE "¢"
-#define SJIS_RIGHT "¨"
-#define SJIS_LEFT "©"
-#define SJIS_UP "ª"
-#define SJIS_DOWN "«"
-#define SJIS_STAR "š"
+#define SJIS_SQUARE "ï¿½ï¿½"
+#define SJIS_CROSS "ï¿½~"
+#define SJIS_CIRCLE "ï¿½ï¿½"
+#define SJIS_TRIANGLE "ï¿½ï¿½"
+#define SJIS_RIGHT "ï¿½ï¿½"
+#define SJIS_LEFT "ï¿½ï¿½"
+#define SJIS_UP "ï¿½ï¿½"
+#define SJIS_DOWN "ï¿½ï¿½"
+#define SJIS_STAR "ï¿½ï¿½"
 
 
 #define printf pspDebugScreenPrintf
